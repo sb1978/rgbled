@@ -1,0 +1,20 @@
+{
+"name": "RGB_LED_Library",
+"frameworks": "Arduino",
+"keywords": "RGB, LED",
+"description": "Implement a RGB LED",
+"authors":
+[
+    {
+        "name": "Steffen.Brink",
+        "email": "brink@elektronikschule.de",
+        "url": "http://www.elektronikschule.de",
+        "maintainer": true
+    }
+],
+"repository":
+{
+    "type": "git",
+    "url": "https://github.com/sb1978/rgbled.git"
+}
+}
