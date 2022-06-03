@@ -1,5 +1,13 @@
 #include "rgbled.h"
 
+/*
+ * rgbled 'objectname' (Pin red LED(int), Pin green LED(int), Pin blue LED (int), char 'c' or 'a' for common cathode oder common anode)
+ * .out(char values for r,g,b --> 0...255)
+ * .preset -->  1: pulsing red
+ *              2: pulsing green
+ *              3: pulsing blue
+ *              4: rgb fading
+ */
 
 rgbled my_rgbled(9,10,11, 'c');
 
